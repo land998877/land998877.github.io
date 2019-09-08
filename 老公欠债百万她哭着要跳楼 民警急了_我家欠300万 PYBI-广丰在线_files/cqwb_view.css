@@ -1,0 +1,1640 @@
+﻿body {
+    background-color: #efefef;
+}
+
+h1, h2, h3, h4, h5, h6, em {
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-size: 85%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    position: relative;
+}
+
+table, td, tr {
+    border: none;
+    border-collapse: collapse;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+img, fieldset {
+    border: medium none;
+}
+
+img {
+    vertical-align: left;
+}
+
+a {
+    cursor: pointer;
+}
+
+    a:link, a:visited {
+        color: #333;
+        text-decoration: none;
+    }
+
+    a:hover, a:active {
+        color: #b40000;
+        text-decoration: underline;
+    }
+
+.clear, .clearing {
+    clear: both;
+    width: 1px;
+    overflow: hidden;
+    height: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+a {
+    blr: expression(this.onFocus=this.blur());
+    outline: none;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.icons {
+    background-repeat: no-repeat;
+}
+
+.fn {
+    font-size: 0px;
+    line-height: 0px;
+    text-indent: -9999px;
+}
+
+.shadow {
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.1);
+    box-shadow: 0 0 4px rgba(0,0,0,0.1);
+}
+
+.arrow {
+    position: absolute;
+    top: -10px;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+}
+
+    .arrow span {
+        font-family: SimSun,"宋体";
+        overflow: hidden;
+        display: block;
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+    }
+
+        .arrow span.arrow-o {
+            color: #ededed;
+        }
+
+        .arrow span.arrow-i {
+            color: #fff;
+            position: absolute;
+            top: 1px;
+            left: 0px;
+        }
+
+a.btn {
+    display: inline-block;
+    width: 100%;
+    height: 34px;
+    font-size: 16px;
+    line-height: 34px;
+    text-align: center;
+}
+
+a.btn-default {
+    background-color: #ededed;
+    color: #666;
+    text-decoration: none;
+}
+
+    a.btn-default:hover, a.btn-default:focus {
+        background-color: #e6e6e6;
+    }
+
+a.btn-primary {
+    background-color: #1d2855;
+    color: #fff;
+    text-decoration: none;
+}
+
+    a.btn-primary:hover, a.btn-primary:focus {
+        background-color: #0059bd;
+    }
+
+.transition {
+    -webkit-transition: all 500ms cubic-bezier(0.34, 1.21, 0.4, 1);
+    -moz-transition: all 500ms cubic-bezier(0.34, 1.21, 0.4, 1);
+    transition: all 500ms cubic-bezier(0.34, 1.21, 0.4, 1);
+    -webkit-transform-origin: 90% 0;
+    -moz-transform-origin: 90% 0;
+    -ms-transform-origin: 90% 0;
+    -o-transform-origin: 90% 0;
+    transform-origin: 90% 0;
+    -webkit-transform: translateY(0) scale(0);
+    -moz-transform: translateY(0) scale(0);
+    -ms-transform: translateY(0) scale(0);
+    -o-transform: translateY(0) scale(0);
+    transform: translateY(0) scale(0);
+    opacity: 0;
+    pointer-events: none;
+    display: none\9;
+}
+
+.box-active {
+    opacity: 1;
+    pointer-events: auto;
+    -webkit-transform: translateY(0) scale(1);
+    -moz-transform: translateY(0) scale(1);
+    -ms-transform: translateY(0) scale(1);
+    -o-transform: translateY(0) scale(1);
+    transform: translateY(0) scale(1);
+    display: block\9;
+}
+
+.bd {
+    overflow: hidden;
+}
+
+.c-blue {
+    color: #1d2855;
+}
+
+.wd300 {
+    width: 300px;
+}
+
+.news-title a:link, .news-title a:visited {
+    color: #1d2855;
+    text-decoration: none;
+}
+
+.news-title a:hover, .news-title a:active {
+    color: #333333;
+    text-decoration: underline;
+}
+
+.c-link {
+    padding-right: 16px;
+    background: url("http://www.cqwb.com.cn/skin/images/c-name.png?v2") no-repeat right center;
+}
+
+.news-abst {
+    color: #666;
+}
+
+.ad-area {
+    width: 1200px;
+    margin: 20px auto 0;
+    overflow: hidden;
+}
+
+.layout {
+    width: 1200px;
+    margin: 0 auto;
+    text-align:left;
+}
+
+    .layout .main {
+        width: 860px;
+        float: left;
+        background-color: #fff;
+    }
+
+    .layout .side {
+        width: 320px;
+        float: right;
+    }
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.layout:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    width: 300px;
+    overflow: hidden;
+    margin: 20px 20px 0 0;
+    background-color: #fff;
+    float: left;
+}
+
+    .card .img-area {
+        width: 280px;
+        height: 158px;
+        overflow: hidden;
+        margin: 10px;
+        position: relative;
+    }
+
+        .card .img-area img {
+            width: 280px;
+            height: 158px;
+            overflow: hidden;
+            position: relative;
+        }
+
+    .card .txt-area {
+        padding: 10px 20px 0 20px;
+        height: 118px;
+        overflow: hidden;
+    }
+
+    .card .news-info {
+        overflow: hidden;
+        color: #888;
+        font-size: 12px;
+    }
+
+        .card .news-info a {
+            color: #0065a0;
+        }
+
+    .card .source {
+        margin-left: 10px;
+    }
+
+    .card .news-title {
+        padding: 6px 0 4px 0;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.5;
+    }
+
+    .card .news-abst {
+        line-height: 22px;
+    }
+
+    .card .btn-area {
+        height: 32px;
+        padding: 0 20px;
+        margin-top: 9px;
+        border-top: 1px solid #ededed;
+    }
+
+.header {
+    height: 80px;
+    background-color: #fff;
+    border-bottom: 1px solid #d1d1d1;
+    position: relative;
+    z-index: 903;
+}
+
+#wrap > .pin-wrapper {
+    display: none;
+}
+
+.header-main {
+    width: 1260px;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    margin: 12px 0 0 20px;
+}
+
+    .logo a {
+        display: block;
+        width: 210px;
+        height: 62px;
+        background: url("http://www.cqwb.com.cn/skin/images/logo.png?v2") no-repeat 0 0;
+        font-size: 0;
+        line-height: 0;
+        text-indent: -999em;
+    }
+
+.search {
+    float: left;
+    width: 358px;
+    height: 34px;
+    margin: 22px 0 0 350px;
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+}
+
+    .search input {
+        border: none;
+        padding: 0;
+        margin: 0;
+        float: left;
+        height: 34px;
+        float: left;
+    }
+
+    .search .search-word {
+        width: 323px;
+        background-color: transparent;
+        line-height: 34px;
+        text-indent: 3px;
+        color: #888;
+        font-family: "Microsoft Yahei","微软雅黑";
+    }
+
+    .search .search-btn {
+        width: 35px;
+        height: 35px;
+        background-color: #FFF;
+        background-position: -158px -158px;
+    }
+
+.login-box {
+    float: right;
+    position: relative;
+}
+
+.login-hd, .loginOutBox {
+    font-size: 16px;
+    line-height: 81px;
+}
+
+    .login-hd a {
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+a.login-title {
+    padding: 0 12px;
+    line-height: 30px;
+    background-color: #1d2855;
+    color: #fff;
+    border-bottom: 3px solid #001e34;
+    text-decoration: none;
+}
+
+a.login-title-act {
+    background-color: #c4c4c4;
+    border-bottom-color: #909090;
+}
+
+.login-frame {
+    width: 164px;
+    padding: 20px;
+    position: absolute;
+    right: 63px;
+    top: 68px;
+    z-index: 199;
+}
+
+.login-label {
+    display: block;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.login-label-name {
+    color: #1d2855;
+    float: left;
+    line-height: 34px;
+}
+
+.login-label-ipt {
+    float: left;
+    width: 118px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    border: 1px solid #ededed;
+    text-indent: 2px;
+}
+
+.th-login {
+    margin: 20px auto 0;
+    border-top: 1px solid #ededed;
+}
+
+    .th-login p {
+        font-size: 14px;
+        color: #666;
+        text-align: center;
+        margin-top: 8px;
+    }
+
+    .th-login img {
+        display: block;
+        margin: 10px auto 0;
+    }
+
+.login-frame .btn-default {
+    margin-top: 20px;
+}
+
+.fun-box {
+    float: right;
+    margin: 28px 20px 0 10px;
+    position: relative;
+}
+
+    .fun-box .fun-btn {
+        display: block;
+        width: 25px;
+        height: 25px;
+        background-position: -113px -113px;
+    }
+
+    .fun-box .fun-btn-act {
+        background-position: -163px -113px;
+    }
+
+    .fun-box .fun-bd {
+        width: 200px;
+        position: absolute;
+        right: -18px;
+        top: 40px;
+        z-index: 199;
+    }
+
+        .fun-box .fun-bd p {
+            padding: 10px 20px;
+            border-bottom: 1px solid #ededed;
+            line-height: 22px;
+        }
+
+        .fun-box .fun-bd img {
+            margin: 10px auto 0;
+        }
+
+        .fun-box .fun-bd span {
+            display: block;
+            text-align: center;
+        }
+/*nav*/
+.nav {
+    height: 51px;
+    background-color: #1d2855;
+    position: relative;
+    z-index: 901;
+}
+
+.nav-main {
+    width: 1260px;
+    height: 51px;
+    margin: 0 auto;
+}
+
+    .nav-main li {
+        float: left;
+        overflow: hidden;
+        margin-right: 10px;
+    }
+
+    .nav-main .nav-a {
+        display: block;
+        padding: 14px 15px;
+        font-size: 18px;
+        color: #fff;
+    }
+
+    .nav-main .act {
+        color: #1d2855;
+        background-color: #fff;
+    }
+
+        .nav-main .act .icons {
+            background-position: -381px -149px;
+        }
+
+    .nav-main .icons {
+        display: inline-block;
+        width: 7px;
+        height: 4px;
+        vertical-align: middle;
+        overflow: hidden;
+        background-position: -380px 0;
+        margin-left: 6px;
+        *margin-top: 3px;
+    }
+
+.nav-fixed {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 99;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+.sub-nav-box {
+    width: 100%;
+    overflow: hidden;
+}
+
+.nav-drawer {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    left: 0;
+    top: 0px;
+    background-color: #fff;
+    box-shadow: 0 2px 1px rgba(0,0,0,0.125);
+    border-bottom: 1px solid #ededed \9;
+}
+
+.nav-drawer-content {
+    width: 1260px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+    .nav-drawer-content .top-drawer {
+        width: 298px;
+        float: left;
+        margin: 20px 0 0 20px;
+    }
+
+        .nav-drawer-content .top-drawer:first-child {
+            margin: 20px 0 0 0;
+        }
+
+.top-drawer .sub-nav {
+    width: 128px;
+    padding-left: 20px;
+    float: left;
+    border-left: 1px solid #d1d1d1;
+}
+
+    .top-drawer .sub-nav span {
+        display: block;
+        width: 128px;
+    }
+
+    .top-drawer .sub-nav a {
+        font-size: 16px;
+        line-height: 40px;
+    }
+
+        .top-drawer .sub-nav a:hover, .top-drawer .sub-nav a:active {
+            color: #b40000;
+            text-decoration: underline;
+        }
+
+.nav-drawer-content .top-card {
+    border: 1px solid #ededed;
+    display: block;
+}
+
+    .nav-drawer-content .top-card .txt-area {
+        height: 64px;
+    }
+
+    .nav-drawer-content .top-card .news-title {
+        height: 24px;
+        overflow: hidden;
+    }
+
+.nav-drawer-ad {
+    float: left;
+    margin-top: 40px;
+    border-top: 1px solid #ededed;
+}
+
+    .nav-drawer-ad > div {
+        width: 300px;
+        height: 60px;
+        float: left;
+        margin: 20px 0 0 20px;
+    }
+
+        .nav-drawer-ad > div:first-child {
+            margin: 20px 0 0 0;
+        }
+
+    .nav-drawer-ad img {
+        width: 300px;
+        height: 60px;
+    }
+
+.nav-life .top-drawer .sub-nav {
+    width: 78px;
+}
+
+.cover {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    zoom: 1;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+    z-index: 1;
+    background-color: #000;
+}
+
+.news-list li a:link, .news-list li a:visited, .news-list-txt a:link, .news-list-txt a:visited {
+    color: #1d2855;
+    text-decoration: none;
+}
+
+.news-list li a:hover, .news-list li a:active, .news-list-txt a:hover, .news-list-txt a:active {
+    color: #333;
+    text-decoration: underline;
+}
+
+.news-list li:hover {
+    background-color: #fff;
+}
+
+.txt-news-list li {
+    height: 50px;
+    padding: 0 20px;
+    border-top: 1px solid #d1d1d1;
+    line-height: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+    .txt-news-list li:hover {
+        background-color: #fff;
+    }
+
+.dp-crumb {
+    padding-bottom: 20px;
+}
+
+    .dp-crumb span, .dp-crumb a, .dp-crumb font {
+        font-size: 16px;
+        margin-right: 5px;
+    }
+
+.pre-next-article {
+    height: 50px;
+    border-bottom: 1px solid #ededed;
+    color: #fff;
+    letter-spacing: -10px;
+}
+
+    .pre-next-article p {
+        position: relative;
+        height: 50px;
+        overflow: hidden;
+    }
+
+    .pre-next-article a {
+        display: block;
+        height: 50px;
+        font-size: 14px;
+        line-height: 50px;
+        overflow: hidden;
+        letter-spacing: 0px;
+        position: absolute;
+        top: 0;
+        background-image: url("http://www.cqwb.com.cn/skin/images/arrow.png");
+        background-repeat: no-repeat;
+    }
+
+#FounderPrevious {
+    width: 411px;
+    left: 20px;
+    background-position: left 0;
+    padding-left: 30px;
+}
+
+#FounderNext {
+    width: 410px;
+    border-left: 1px solid #efefef;
+    right: 20px;
+    padding-right: 30px;
+    text-align: right;
+    background-position: right -50px;
+}
+
+.content_main {
+    padding-bottom: 20px;
+}
+
+.content_pic {
+    margin: 20px;
+}
+
+    .content_pic img {
+        width: 900px;
+        height: 506px;
+    }
+
+.content_hd {
+    padding: 20px 20px 5px 20px;
+    border-bottom: 1px solid #ededed;
+}
+
+    .content_hd h1 {
+        display: block;
+        font-size: 30px;
+        line-height: 1.5;
+        padding-bottom: 15px;
+        color: #1d2855;
+        text-align:center;
+    }
+
+    .content_hd > div {
+        margin-top: 20px;
+        padding-bottom: 15px;
+    }
+
+    .content_hd .subtitle {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #666;
+        margin-top: 20px;
+    }
+
+    .content_hd .article-abst {
+        font-size: 16px;
+        line-height: 34px;
+        margin-top: 20px;
+        color: #666;
+    }
+
+    .content_hd .articleInfo {
+        font-size: 12px;
+        color: #888;
+        height: 12px;
+        overflow: hidden;
+    }
+
+        .content_hd .articleInfo span {
+            margin-right: 10px;
+            float: left;
+        }
+
+    .content_hd .share-btn {
+        float: right;
+    }
+
+.content_bd .content {
+    padding: 10px 20px;
+    height: auto;
+    _height: 1110px;
+    _overflow: visible;
+    overflow: hidden;
+    text-align: left;
+    line-height: 30px;
+    font-size: 16px;
+    border-right: 1px solid #ededed;
+}
+
+    .content_bd .content p {
+        margin: 2em auto;
+        text-indent: 12px;
+    }
+
+.content_bd textarea {
+    display: inline-block;
+    width: 80%;
+    height: 150px;
+    margin: 10px 5px 10px 30px;
+}
+
+.content_bd input[type="submit"] {
+    width: 90px;
+    height: 30px;
+}
+
+.content img, .content p img {
+    max-width: 100% !important;
+    width: auto !important;
+    height: auto !important;
+    display: inline;
+}
+
+.content_bd_right {
+    width: 300px;
+    float: left;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.wumii-hook {
+    width: 300px;
+}
+
+.wumii-widget-title {
+    height: 46px !important;
+    font-size: 20px !important;
+    line-height: 46px !important;
+    text-indent: 20px !important;
+    color: #1d2855 !important;
+    border-bottom: 1px solid #1d2855 !important;
+    padding: 0 !important;
+    font-weight: normal !important;
+}
+
+.wumii-text-li {
+    height: 50px !important;
+    font-size: 14px !important;
+    line-height: 50px !important;
+    padding: 0 20px !important;
+    background: none !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    list-style: none !important;
+    border-bottom: 1px solid #ededed;
+}
+
+.wumii-footer {
+    display: none !important;
+}
+
+.content_bd_right .ad {
+    height: 250px;
+    overflow: hidden;
+}
+
+.content_bd_right .qr-code {
+    width: 100%;
+    text-align: center;
+    padding: 80px 0 20px 0;
+}
+
+    .content_bd_right .qr-code img {
+        display: inline-block;
+    }
+
+.content_bd {
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+
+.content_share {
+    height: 50px;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    position: relative;
+}
+
+    .content_share p {
+        float: left;
+        font-size: 16px;
+        line-height: 50px;
+        color: #666;
+        margin-left: 20px;
+    }
+
+.share-item {
+    padding: 0 10px 10px 10px;
+    overflow: hidden;
+    float: left;
+}
+
+    .share-item a {
+        float: left;
+        width: 32px;
+        height: 32px;
+        margin: 10px 0 0 10px;
+    }
+
+    .share-item .s-sina {
+        background-position: -9px -9px;
+        margin-left: 0;
+    }
+
+    .share-item .s-teiba {
+        background-position: -59px -9px;
+    }
+
+    .share-item .s-qqhy {
+        background-position: -109px -9px;
+    }
+
+    .share-item .s-wechat {
+        background-position: -159px -9px;
+    }
+
+    .share-item .s-sina:hover {
+        background-position: -9px -59px;
+    }
+
+    .share-item .s-teiba:hover {
+        background-position: -59px -59px;
+    }
+
+    .share-item .s-qqhy:hover {
+        background-position: -109px -59px;
+    }
+
+    .share-item .s-wechat:hover {
+        background-position: -159px -59px;
+    }
+
+.qrcodeBox {
+    position: absolute;
+    top: -107px;
+    left: 102px;
+    width: 260px;
+    height: 95px;
+    border: 1px solid #ededed;
+    padding: 5px;
+    background: #fff;
+    z-index: 99;
+}
+
+    .qrcodeBox img {
+        width: 95px;
+        height: 95px;
+        float: left;
+    }
+
+    .qrcodeBox .txtArea {
+        float: left;
+        font-size: 12px;
+        line-height: 24px;
+        color: #666;
+        margin: 12px 0 0 3px;
+    }
+
+    .qrcodeBox #closeBox {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        display: block;
+        width: 11px;
+        height: 11px;
+        text-decoration: none;
+        background-position: -220px -120px;
+    }
+
+    .qrcodeBox .arrow {
+        top: auto;
+        bottom: -11px;
+        left: 38px;
+    }
+
+        .qrcodeBox .arrow .arrow-i {
+            top: -1px;
+        }
+
+.content_comment {
+    padding: 0 20px;
+}
+
+    .content_comment #SOHUCS #SOHU_MAIN #powerby_sohu {
+        display: none !important;
+    }
+
+.editor {
+    width: 100%;
+    text-align: right;
+    font-size: 12px;
+    color: #666;
+}
+
+.content-mod1 {
+    overflow: hidden;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-bottom:10px;
+    background-color:#fff;
+    text-align:center;
+}
+.content-mod {
+    overflow: hidden;
+    margin-bottom:15px;
+    background-color:#fff;
+    height: auto;
+}
+
+    .content-mod .hd {
+        height: 50px;
+        background-color: #154F95;
+    }
+
+        .content-mod .hd span {
+            float: left;
+            padding-left: 20px;
+            font-size: 20px;
+            line-height: 50px;
+            color: #fff;
+        }
+
+        .content-mod .hd a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+.news-list {
+    width: 100%;
+    overflow: hidden;
+}
+
+    .news-list li {
+        height: 60px;
+        overflow: hidden;
+        padding: 21px 20px;
+        border-top: 1px solid #d1d1d1;
+        vertical-align: bottom;
+    }
+
+        .news-list li:first-child {
+            border-top: none;
+        }
+
+        .news-list li a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            color: #0060b6;
+            text-decoration: none;
+        }
+
+    .news-list .txt-area {
+        float: left;
+        width: 100%;
+    }
+
+    .news-list .news-title {
+        line-height: 20px;
+        height: 40px;
+        overflow: hidden;
+    }
+
+    .news-list .news-date {
+        font-size: 12px;
+        color: #666;
+        margin-top: 5px;
+    }
+
+    .news-list .img-area {
+        float: right;
+    }
+
+        .news-list .img-area img {
+            width: 60px;
+            height: 60px;
+        }
+
+.news-list-txt {
+    background-color: #fff;
+}
+
+    .news-list-txt li {
+        height: 49px;
+        line-height: 49px;
+        padding: 0 20px;
+        border-bottom: 1px solid #ededed;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .news-list-images {
+    width: 100%;
+    overflow: hidden;
+}
+ .news-list-images li {
+        padding: 21px 10px;     
+        height: auto;
+        width:150px
+        overflow: hidden;
+        border-top: 1px solid #d1d1d1;
+        text-align: center;
+        float: left;
+    }
+ .news-list-images li img {
+   width:140px;
+   height:100px
+   }
+.news-list-images li p{
+   width:140px;
+   height:30px;
+   line-height:30px;
+   overflow: hidden;
+/*demanda*/
+.demanda {
+    margin-left: -10px;
+    float: left;
+}
+
+    .demanda a {
+        float: left;
+        width: 93px;
+        height: 33px;
+        text-align: center;
+        color: #666;
+        margin: 10px 0 0 10px;
+        padding-top: 60px;
+        text-decoration: none;
+    }
+
+    .demanda .d-1:hover {
+        background-position: -2px -218px;
+    }
+
+    .demanda .d-2:hover {
+        background-position: -102px -218px;
+    }
+
+    .demanda .d-3:hover {
+        background-position: -202px -218px;
+    }
+
+    .demanda .d-4:hover {
+        background-position: -280px -218px;
+        width: 145px;
+    }
+
+    .demanda .d-5:hover {
+        background-position: -380px -218px;
+        width: 145px;
+    }
+
+    .demanda .d-6:hover {
+        background-position: -502px -218px;
+    }
+
+    .demanda .d-7:hover {
+        background-position: -602px -218px;
+    }
+
+    .demanda .d-8:hover {
+        background-position: -702px -218px;
+    }
+
+    .demanda .d-1 {
+        background-position: -2px -318px;
+    }
+
+    .demanda .d-2 {
+        background-position: -102px -318px;
+    }
+
+    .demanda .d-3 {
+        background-position: -202px -318px;
+    }
+
+    .demanda .d-4 {
+        background-position: -280px -318px;
+        width: 145px;
+    }
+
+    .demanda .d-5 {
+        background-position: -380px -318px;
+        width: 145px;
+    }
+
+    .demanda .d-6 {
+        background-position: -502px -318px;
+    }
+
+    .demanda .d-7 {
+        background-position: -602px -318px;
+    }
+
+    .demanda .d-8 {
+        background-position: -702px -318px;
+    }
+
+    .demanda a:hover {
+        background-color: #0059b4;
+        color: #fff;
+    }
+
+.m-nav, .m-menu-btn, #cove-a, .top-drawer .m-top-nav, .m-menu, .m-search {
+    display: none;
+}
+/*div_currpage*/
+#div_currpage {
+    margin-bottom: 20px;
+}
+
+    #div_currpage a, #div_currpage span {
+        font-size: 14px;
+        line-height: 26px;
+        display: inline-block;
+        padding: 2px 10px;
+        margin: 10px 2px;
+        color: #666;
+        text-decoration: none;
+        border-bottom: 2px solid #acacac;
+    }
+
+        #div_currpage span.order, #div_currpage a.next {
+            font-weight: bold;
+            background-color: #1d2855;
+            color: #fff;
+            border-bottom: 2px solid #000725;
+        }
+
+        #div_currpage a.order, #div_currpage a.tenpage {
+            background-color: #dcdcdc;
+            color: #666;
+            border-bottom: 2px solid #acacac;
+        }
+
+        #div_currpage span.next {
+            background-color: #dcdcdc;
+            color: #666;
+            border-bottom: 2px solid #acacac;
+        }
+/*footer*/
+.dayoo-footer {
+    margin-top: 20px;
+}
+/*videobox*/
+#videobox {
+    height: 420px;
+}
+/*form*/
+.verticalcss ul li, .mixcss ul li, .othercss ul li, .rankcss ul li {
+    font-size: 16px;
+}
+
+.verticalcss p.q, .mixcss p.q, .othercss p.q, .rankcss p.q {
+    font-size: 16px;
+}
+
+.verticalcss ul li input, .mixcss ul li input, .othercss ul li input, .rankcss ul li input {
+    margin-left: 10px;
+}
+/*ad*/
+.dcol {
+    background-color: #f9f9f9;
+    border: 1px solid #e3e3e3;
+}
+
+    .dcol .ctitle {
+        line-height: 30px;
+        border-bottom: 1px solid #e3e3e3;
+        padding-left: 10px;
+    }
+
+        .dcol .ctitle a {
+            color: #1d2855;
+        }
+
+    .dcol ul {
+        padding: 10px 5px;
+    }
+
+    .dcol li {
+        height: 24px;
+        overflow: hidden;
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    .dcol .xa font {
+        color: #4c4c4c;
+    }
+
+    .dcol .time {
+        color: #888;
+        margin-left: 5px;
+    }
+
+@media screen and (max-width:1024px) {
+    .ad-area, .nav-drawer-content .top-card, .ad {
+        display: none;
+    }
+
+    .ad-wd468 {
+        display: block;
+    }
+
+    .jd-ad {
+        display: block;
+        margin-top: 20px;
+    }
+
+        .jd-ad iframe {
+            display: block;
+            margin: 0 auto;
+        }
+
+    .mt20 {
+        margin-top: 0;
+    }
+
+
+    .dp-crumb {
+        padding: 20px;
+    }
+
+    #FounderPrevious, #FounderNext {
+        width: 50%;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+
+    .content_pic img {
+        width: 100%;
+        height: auto;
+    }
+
+    .content-mod .bd, .content_bd, .news-list li {
+        display: -moz-box;
+        display: -webkit-box;
+        display: box;
+    }
+
+        .content-mod .content-right, .content_bd .content, .news-list .txt-area {
+            float: none;
+            width: auto;
+            -moz-box-flex: 1;
+            -webkit-box-flex: 1;
+            box-flex: 1;
+        }
+
+    .content_bd_right {
+        float: none;
+        width: auto;
+        padding: 0;
+    }
+
+    .content_bd {
+        padding-bottom: 0;
+    }
+
+    .content-mod .content-left {
+        margin-left: 20px;
+    }
+
+    .content-mod .content-right {
+        margin: 0 20px;
+    }
+
+    .qrcodeBox {
+        left: 102px;
+    }
+
+    .txt-news-list {
+        float: none;
+        width: auto;
+    }
+
+        .txt-news-list li {
+            width: auto;
+            float: none;
+            margin-left: 0;
+        }
+
+        .news-list .news-title, .txt-news-list li, .news-list-txt {
+            font-size: 16px;
+        }
+
+    .news-list .txt-area {
+        float: none;
+        width: auto;
+    }
+
+    .news-list .img-area {
+        margin-left: 10px;
+        width: 60px;
+        height: 60px;
+        float: none;
+    }
+    /*admm-ad*/
+    .admm-ad {
+        display: block;
+        width: 300px;
+        margin: 0 auto;
+    }
+    /*header*/
+    .adright {
+     width:320px;
+     height:auto;
+     padding-left: auto;
+     padding-right: auto;
+     background-color:#fff;
+     text-align:center;
+    }
+    #wrap {
+        width: auto;
+        padding-top: 50px;
+    }
+
+    .header-main .search, .header-main .fun-box, .header-main .login-box {
+        display: none;
+    }
+
+    .header {
+        position: fixed;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        height: 48px;
+        z-index: 1002;
+    }
+
+    .header-main, .subfoot-wrap .links {
+        width: auto;
+    }
+
+    .search {
+        margin: 22px 0 0 50px;
+    }
+
+    .logo {
+        position: absolute;
+        top: 8px;
+        left: 50%;
+        margin: 0 0 0 -45px;
+    }
+
+        .logo a {
+            width: 89px;
+            height: 31px;
+            -webkit-background-size: 89px 31px;
+            background-size: 89px 31px;
+        }
+
+    .hidden {
+        display: none !important;
+    }
+    /*m-search*/
+    .m-search {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 48px;
+        height: 48px;
+        overflow: hidden;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+
+    #bdcs-search-form-input-span {
+        width: 48px!important;
+        height: 48px;
+        border: 0;
+        background-color: transparent;
+        color: transparent;
+        text-indent: 0px;
+    }
+
+    #bdcs-search-form-input-notspan {
+        width: 100%!important;
+        height: 48px!important;
+        line-height: 48px!important;
+        margin: 0!important;
+        text-indent: -999em;
+        font-size: 0;
+        line-height: 0;
+        background: url(http://www.cqwb.com.cn/skin/images/icons5.png?v=201504011733) no-repeat 16px -209px;
+        -webkit-background-size: 400px auto;
+        background-size: 400px auto;
+        appearance: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+    }
+
+    #bdcs-search-focus-inner {
+        background-color: transparent;
+    }
+
+    #bdcs-search-form-focus {
+        display: -moz-box;
+        display: -webkit-box;
+        display: box;
+    }
+
+    #bdcs-search-focus-back {
+        display: block !important;
+        width: 48px;
+        background: url(http://www.cqwb.com.cn/skin/images/icons5.png?v=201504011733) no-repeat 16px -253px;
+        -webkit-background-size: 400px auto;
+        background-size: 400px auto;
+    }
+
+    #s_btn_wr_focus {
+        display: block !important;
+        width: 48px;
+        background: url(http://www.cqwb.com.cn/skin/images/icons5.png?v=201504011733) no-repeat 16px -209px;
+        -webkit-background-size: 400px auto;
+        background-size: 400px auto;
+    }
+
+        #bdcs-search-focus-back img, #s_btn_wr_focus img, #icon_remove {
+            display: none !important;
+        }
+
+    #search_input_container {
+        -moz-box-flex: 1;
+        -webkit-box-flex: 1;
+        box-flex: 1;
+        display: block !important;
+        background-color: transparent!important;
+        border: 0;
+        margin: 0;
+        height: 48px;
+    }
+
+        #search_input_container input {
+            background-color: transparent!important;
+            width: 100%;
+            height: 24px;
+            line-height: 24px;
+            font-size: 14px;
+            font-family: inherit;
+            padding: 12px 0;
+            margin: 0;
+            text-indent: 3px;
+        }
+
+    .fdj {
+        margin-top: 8px !important;
+    }
+    /*m-menu*/
+    .m-menu {
+        display: block;
+        width: 16px;
+        height: 16px;
+        padding: 16px;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .m-menu-box {
+        position: relative;
+        width: 16px;
+        height: 16px;
+    }
+
+    .m-menu .bit-1::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 2px;
+        width: 8px;
+        height: 2px;
+        background: #1d2855;
+        -webkit-transform-origin: left bottom;
+        transform-origin: left bottom;
+        transition: -webkit-transform .3s,top .3s;
+        transition: transform .3s,top .3s;
+    }
+
+    .m-menu .bit-1::after {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 2px;
+        width: 8px;
+        height: 2px;
+        background: #1d2855;
+        -webkit-transform-origin: right bottom;
+        transform-origin: right bottom;
+        transition: -webkit-transform .3s,top .3s;
+        transition: transform .3s,top .3s;
+    }
+
+    .m-menu .bit-2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 16px;
+        height: 2px;
+        background: #1d2855;
+        -webkit-transform: translate(-50%,-50%);
+        tr湡猀昀漀爀洀㨀 琀爀愀渀猀氀愀琀攀⠀ⴀ㔀　─Ⰰⴀ㔀　─⤀㬀ഀ਀        琀爀愀渀猀椀琀椀漀渀㨀 ⴀ眀攀戀欀椀琀ⴀ琀爀愀渀猀昀漀爀洀 ⸀㌀猀 ⸀㌀猀Ⰰ眀椀搀琀栀 ⸀㌀猀 ⸀㘀猀㬀ഀ਀        琀爀愀渀猀椀琀椀漀渀㨀 琀爀愀渀猀昀漀爀洀 ⸀㌀猀 ⸀㌀猀Ⰰ眀椀搀琀栀 ⸀㌀猀 ⸀㘀猀㬀ഀ਀    紀ഀ਀ഀ਀    ⸀洀ⴀ洀攀渀甀 ⸀戀椀琀ⴀ㌀㨀㨀戀攀昀漀爀攀 笀ഀ਀        挀漀渀琀攀渀琀㨀 ✀✀㬀ഀ਀        瀀漀猀椀琀椀漀渀㨀 愀戀猀漀氀甀琀攀㬀ഀ਀        氀攀昀琀㨀 　㬀ഀ਀        戀漀琀琀漀洀㨀 ㈀瀀砀㬀ഀ਀        眀椀搀琀栀㨀 㠀瀀砀㬀ഀ਀        栀攀椀最栀琀㨀 ㈀瀀砀㬀ഀ਀        戀愀挀欀最爀漀甀渀搀㨀 ⌀㄀搀㈀㠀㔀㔀㬀ഀ਀        ⴀ眀攀戀欀椀琀ⴀ琀爀愀渀猀昀漀爀洀ⴀ漀爀椀最椀渀㨀 氀攀昀琀 琀漀瀀㬀ഀ਀        琀爀愀渀猀昀漀爀洀ⴀ漀爀椀最椀渀㨀 氀攀昀琀 琀漀瀀㬀ഀ਀        琀爀愀渀猀椀琀椀漀渀㨀 ⴀ眀攀戀欀椀琀ⴀ琀爀愀渀猀昀漀爀洀 ⸀㌀猀Ⰰ戀漀琀琀漀洀 ⸀㌀猀㬀ഀ਀        琀爀愀渀猀椀琀椀漀渀㨀 琀爀愀渀猀昀漀爀洀 ⸀㌀猀Ⰰ戀漀琀琀漀洀 ⸀㌀猀㬀ഀ਀    紀ഀ਀ഀ਀    ⸀洀ⴀ洀攀渀甀 ⸀戀椀琀ⴀ㌀㨀㨀愀昀琀攀爀 笀ഀ਀        挀漀渀琀攀渀琀㨀 ✀✀㬀ഀ਀        瀀漀猀椀琀椀漀渀㨀 愀戀猀漀氀甀琀攀㬀ഀ਀        戀漀琀琀漀洀㨀 ㈀瀀砀㬀ഀ਀        爀椀最栀琀㨀 　㬀ഀ਀        眀椀搀琀栀㨀 㠀瀀砀㬀ഀ਀        栀攀椀最栀琀㨀 ㈀瀀砀㬀ഀ਀        戀愀挀欀最爀漀甀渀搀㨀 ⌀㄀搀㈀㠀㔀㔀㬀ഀ਀        ⴀ眀攀戀欀椀琀ⴀ琀爀愀渀猀昀漀爀洀ⴀ漀爀椀最椀渀㨀 爀椀最栀琀 琀漀瀀㬀ഀ਀        琀爀愀渀猀昀漀爀洀ⴀ漀爀椀最椀渀㨀 爀椀最栀琀 琀漀瀀㬀ഀ਀        琀爀愀渀猀椀琀椀漀渀㨀 ⴀ眀攀戀欀椀琀ⴀ琀爀愀渀猀昀漀爀洀 ⸀㌀猀Ⰰ戀漀琀琀漀洀 ⸀㌀猀㬀ഀ਀        琀爀愀渀猀椀琀椀漀渀㨀 琀爀愀渀猀昀漀爀洀 ⸀㌀猀Ⰰ戀漀琀琀漀洀 ⸀㌀猀㬀ഀ਀    紀ഀ਀ഀ਀    ⸀洀ⴀ洀攀渀甀⸀漀瀀攀渀 ⸀戀椀琀ⴀ㄀㨀戀攀昀漀爀攀 笀ഀ਀        琀漀瀀㨀 　㬀ഀ਀        眀椀搀琀栀㨀 㤀瀀砀㬀ഀ਀        戀愀挀欀最爀漀甀渀搀ⴀ挀漀氀漀爀㨀 ⌀挀挀挀㬀ഀ਀        ⴀ眀攀戀欀椀琀ⴀ琀爀愀渀猀昀漀爀洀㨀 爀漀琀愀琀攀⠀㐀㔀搀攀最⤀㬀ഀ਀        琀爀愀渀猀昀漀爀洀㨀 爀漀琀愀琀攀⠀㐀㔀搀攀最⤀㬀ഀ਀        ⴀ眀攀戀欀椀琀ⴀ琀爀愀渀猀昀漀爀洀ⴀ漀爀椀最椀渀㨀 氀攀昀琀 戀漀琀琀漀洀㬀ഀ਀        琀爀愀渀猀昀漀爀洀ⴀ漀爀椀最椀渀㨀 氀攀昀琀 戀漀琀琀漀洀㬀ഀ਀        琀爀愀渀猀椀琀椀漀渀㨀 ⴀ眀攀戀欀椀琀ⴀ琀爀愀渀猀昀漀爀洀 ⸀㌀猀 ⸀㌀猀Ⰰ眀椀搀琀栀 ⸀㌀猀 ⸀㌀猀Ⰰ琀漀瀀 ⸀㌀猀 ⸀㌀猀㬀ഀ਀        琀爀愀渀猀椀琀椀漀渀㨀 琀爀愀渀猀昀漀爀洀 ⸀㌀猀 ⸀㌀猀Ⰰ眀椀搀琀栀 ⸀㌀猀 ⸀㌀猀Ⰰ琀漀瀀 ⸀㌀猀 ⸀㌀猀㬀ഀ਀    紀ഀ਀ഀ਀    ⸀洀ⴀ洀攀渀甀⸀漀瀀攀渀 ⸀戀椀琀ⴀ㄀㨀愀昀琀攀爀 笀ഀ਀        琀漀瀀㨀 　㬀ഀ਀        眀椀搀琀栀㨀 㤀瀀砀㬀ഀ਀        戀愀挀欀最爀漀甀渀搀ⴀ挀漀氀漀爀㨀 ⌀挀挀挀㬀ഀ਀        ⴀ眀攀戀欀椀琀ⴀ琀爀愀渀猀昀漀爀洀㨀 爀漀琀愀琀攀⠀ⴀ㐀㔀搀攀最⤀㬀ഀ਀        琀爀愀渀猀昀漀爀洀㨀 爀漀琀愀琀攀⠀ⴀ㐀㔀搀攀最⤀㬀ഀ਀        ⴀ眀攀戀欀椀琀ⴀ琀爀愀渀猀昀漀爀洀ⴀ漀爀椀最椀渀㨀 爀椀最栀琀 戀漀琀琀漀洀㬀ഀ਀        琀爀愀渀猀昀漀爀洀ⴀ漀爀椀最椀渀㨀 爀椀最栀琀 戀漀琀琀漀洀㬀ഀ਀        琀爀愀渀猀椀琀椀漀渀㨀 ⴀ眀攀戀欀椀琀ⴀ琀爀愀渀猀昀漀爀洀 ⸀㌀猀 ⸀㌀猀Ⰰ眀椀搀琀栀 ⸀㌀猀 ⸀㌀猀Ⰰ琀漀瀀 ⸀㌀猀 ⸀㌀猀㬀ഀ਀        琀爀愀渀猀椀琀椀漀渀㨀 琀爀愀渀猀昀漀爀洀 ⸀㌀猀 ⸀㌀猀Ⰰ眀椀搀琀栀 ⸀㌀猀 ⸀㌀猀Ⰰ琀漀瀀 ⸀㌀猀 ⸀㌀猀㬀ഀ਀    紀ഀ਀ഀ਀    ⸀洀ⴀ洀攀渀甀⸀漀瀀攀渀 ⸀戀椀琀ⴀ㈀ 笀ഀ਀        眀椀搀琀栀㨀 ㈀瀀砀㬀ഀ਀        戀愀挀欀最爀漀甀渀搀ⴀ挀漀氀漀爀㨀 ⌀挀挀挀㬀ഀ਀        ⴀ眀攀戀欀椀琀ⴀ琀爀愀渀猀昀漀爀洀㨀 琀爀愀渀猀氀愀琀攀⠀ⴀ㔀　─Ⰰⴀ㔀　─⤀ 爀漀琀愀琀攀⠀㐀㔀搀攀最⤀㬀ഀ਀        琀爀愀渀猀昀漀爀洀㨀 琀爀愀渀猀氀愀琀攀⠀ⴀ㔀　─Ⰰⴀ㔀　─⤀ 爀漀琀愀琀攀⠀㐀㔀搀攀最⤀㬀ഀ਀        琀爀愀渀猀椀琀椀漀渀㨀 ⴀ眀攀戀欀椀琀ⴀ琀爀愀渀猀昀漀爀洀 ⸀㌀猀 ⸀㌀猀Ⰰ眀椀搀琀栀 ⸀㌀猀㬀ഀ਀        琀爀愀渀猀椀琀椀漀渀㨀 琀爀愀渀猀昀漀爀洀 ⸀㌀猀 ⸀㌀猀Ⰰ眀椀搀琀栀 ⸀㌀猀㬀ഀ਀    紀ഀ਀ഀ਀    ⸀洀ⴀ洀攀渀甀⸀漀瀀攀渀 ⸀戀椀琀ⴀ㌀㨀戀攀昀漀爀攀 笀ഀ਀        戀漀琀琀漀洀㨀 　㬀ഀ਀        眀椀搀琀栀㨀 㤀瀀砀㬀ഀ਀        戀愀挀欀最爀漀甀渀搀ⴀ挀漀氀漀爀㨀 ⌀挀挀挀㬀ഀ਀        ⴀ眀攀戀欀椀琀ⴀ琀爀愀渀猀昀漀爀洀㨀 爀漀琀愀琀攀⠀ⴀ㐀㔀搀攀最⤀㬀ഀ਀        琀爀愀渀猀昀漀爀洀㨀 爀漀琀愀琀攀⠀ⴀ㐀㔀搀攀最⤀㬀ഀ਀        ⴀ眀攀戀欀椀琀ⴀ琀爀愀渀猀昀漀爀洀ⴀ漀爀椀最椀渀㨀 氀攀昀琀 琀漀瀀㬀ഀ਀        琀爀愀渀猀昀漀爀洀ⴀ漀爀椀最椀渀㨀 氀攀昀琀 琀漀瀀㬀ഀ਀        琀爀愀渀猀椀琀椀漀渀㨀 ⴀ眀攀戀欀椀琀ⴀ琀爀愀渀猀昀漀爀洀 ⸀㌀猀 ⸀㌀猀Ⰰ眀椀搀琀栀 ⸀㌀猀 ⸀㌀猀Ⰰ戀漀琀琀漀洀 ⸀㌀猀 ⸀㌀猀㬀ഀ਀        琀爀愀渀猀椀琀椀漀渀㨀 琀爀愀渀猀昀漀爀洀 ⸀㌀猀 ⸀㌀猀Ⰰ眀椀搀琀栀 ⸀㌀猀 ⸀㌀猀Ⰰ戀漀琀琀漀洀 ⸀㌀猀 ⸀㌀猀㬀ഀ਀    紀ഀ਀ഀ਀    ⸀洀ⴀ洀攀渀甀⸀漀瀀攀渀 ⸀戀椀琀ⴀ㌀㨀愀昀琀攀爀 笀ഀ਀        戀漀琀琀漀洀㨀 　㬀ഀ਀        眀椀搀琀栀㨀 㤀瀀砀㬀ഀ਀        戀愀挀欀最爀漀甀渀搀ⴀ挀漀氀漀爀㨀 ⌀挀挀挀㬀ഀ਀        ⴀ眀攀戀欀椀琀ⴀ琀爀愀渀猀昀漀爀洀㨀 爀漀琀愀琀攀⠀㐀㔀搀攀最⤀㬀ഀ਀        琀爀愀渀猀昀漀爀洀㨀 爀漀琀愀琀攀⠀㐀㔀搀攀最⤀㬀ഀ਀        ⴀ眀攀戀欀椀琀ⴀ琀爀愀渀猀昀漀爀洀ⴀ漀爀椀最椀渀㨀 爀椀最栀琀 琀漀瀀㬀ഀ਀        琀爀愀渀猀昀漀爀洀ⴀ漀爀椀最椀渀㨀 爀椀最栀琀 琀漀瀀㬀ഀ਀        琀爀愀渀猀椀琀椀漀渀㨀 ⴀ眀攀戀欀椀琀ⴀ琀爀愀渀猀昀漀爀洀 ⸀㌀猀 ⸀㌀猀Ⰰ眀椀搀琀栀 ⸀㌀猀 ⸀㌀猀Ⰰ戀漀琀琀漀洀 ⸀㌀猀 ⸀㌀猀㬀ഀ਀        琀爀愀渀猀椀琀椀漀渀㨀 琀爀愀渀猀昀漀爀洀 ⸀㌀猀 ⸀㌀猀Ⰰ眀椀搀琀栀 ⸀㌀猀 ⸀㌀猀Ⰰ戀漀琀琀漀洀 ⸀㌀猀 ⸀㌀猀㬀ഀ਀    紀ഀ਀    ⼀⨀渀愀瘀⨀⼀ഀ਀    ⸀洀ⴀ猀栀漀眀 笀ഀ਀        瘀椀猀椀戀椀氀椀琀礀㨀 瘀椀猀椀戀氀攀 ℀椀洀瀀漀爀琀愀渀琀㬀ഀ਀    紀ഀ਀ഀ਀    ⸀渀愀瘀 笀ഀ਀        瀀漀猀椀琀椀漀渀㨀 昀椀砀攀搀㬀ഀ਀        稀ⴀ椀渀搀攀砀㨀 㤀㤀㤀㬀ഀ਀        氀攀昀琀㨀 　㬀ഀ਀        琀漀瀀㨀 㐀㤀瀀砀㬀ഀ਀        眀椀搀琀栀㨀 ㄀　　─㬀ഀ਀        栀攀椀最栀琀㨀 ㄀　　─㬀ഀ਀        搀椀猀瀀氀愀礀㨀 ⴀ洀漀稀ⴀ戀漀砀㬀ഀ਀        搀椀猀瀀氀愀礀㨀 ⴀ眀攀戀欀椀琀ⴀ戀漀砀㬀ഀ਀        搀椀猀瀀氀愀礀㨀 戀漀砀㬀ഀ਀        戀愀挀欀最爀漀甀渀搀ⴀ挀漀氀漀爀㨀 琀爀愀渀猀瀀愀爀攀渀琀㬀ഀ਀        ⴀ眀攀戀欀椀琀ⴀ愀渀椀洀愀琀椀漀渀ⴀ搀甀爀愀琀椀漀渀㨀 　⸀㔀猀㬀ഀ਀        愀渀椀洀愀琀椀漀渀ⴀ搀甀爀愀琀椀漀渀㨀 　⸀㔀猀㬀ഀ਀        ⴀ眀攀戀欀椀琀ⴀ愀渀椀洀愀琀椀漀渀ⴀ昀椀氀氀ⴀ洀漀搀攀㨀 戀漀琀栀㬀ഀ਀        愀渀椀洀愀琀椀漀渀ⴀ昀椀氀氀ⴀ洀漀搀攀㨀 戀漀琀栀㬀ഀ਀        瘀椀猀椀戀椀氀椀琀礀㨀 栀椀搀搀攀渀㬀ഀ਀    紀ഀ਀ഀ਀        ⸀渀愀瘀 ⸀渀愀瘀ⴀ洀愀椀渀 笀ഀ਀            眀椀搀琀栀㨀 ㄀㈀　瀀砀㬀ഀ਀            栀攀椀最栀琀㨀 愀甀琀漀㬀ഀ਀            洀愀爀最椀渀㨀 　㬀ഀ਀            戀愀挀欀最爀漀甀渀搀ⴀ挀漀氀漀爀㨀 ⌀㄀搀㈀㠀㔀㔀㬀ഀ਀        紀ഀ਀ഀ਀    ⸀渀愀瘀ⴀ洀愀椀渀 ⸀渀愀瘀ⴀ愀 笀ഀ਀        琀攀砀琀ⴀ搀攀挀漀爀愀琀椀漀渀㨀 渀漀渀攀㬀ഀ਀        瀀愀搀搀椀渀最㨀 　 ㄀㈀瀀砀 　 　㬀ഀ਀        昀漀渀琀ⴀ猀椀稀攀㨀 ㄀㘀瀀砀㬀ഀ਀        氀椀渀攀ⴀ栀攀椀最栀琀㨀 ㌀⸀㔀㬀ഀ਀        琀攀砀琀ⴀ愀氀椀最渀㨀 爀椀最栀琀㬀ഀ਀    紀ഀ਀ഀ਀    ⸀渀愀瘀ⴀ洀愀椀渀 氀椀 笀ഀ਀        昀氀漀愀琀㨀 渀漀渀攀㬀ഀ਀        洀愀爀最椀渀ⴀ爀椀最栀琀㨀 　㬀ഀ਀    紀ഀ਀ഀ਀        ⸀渀愀瘀ⴀ洀愀椀渀 氀椀㨀氀愀猀琀ⴀ挀栀椀氀搀 笀ഀ਀            搀椀猀瀀氀愀礀㨀 渀漀渀攀㬀ഀ਀        紀ഀ਀ഀ਀        ⸀渀愀瘀ⴀ洀愀椀渀 氀椀 愀⸀愀挀琀 笀ഀ਀            戀愀挀欀最爀漀甀渀搀ⴀ挀漀氀漀爀㨀 ⌀　　　㜀㈀㈀㬀ഀ਀            挀漀氀漀爀㨀 ⌀昀昀昀㬀ഀ਀        紀ഀ਀ഀ਀    ⸀渀愀瘀 ⸀猀甀戀ⴀ渀愀瘀ⴀ戀漀砀 笀ഀ਀        ⴀ洀漀稀ⴀ戀漀砀ⴀ昀氀攀砀㨀 ㄀㬀ഀ਀        ⴀ眀攀戀欀椀琀ⴀ戀漀砀ⴀ昀氀攀砀㨀 ㄀㬀ഀ਀        戀漀砀ⴀ昀氀攀砀㨀 ㄀㬀ഀ਀        栀攀椀最栀琀㨀 ㄀　　─㬀ഀ਀    紀ഀ਀ഀ਀    ⸀渀愀瘀ⴀ搀爀愀眀攀爀 笀ഀ਀        戀愀挀欀最爀漀甀渀搀ⴀ挀漀氀漀爀㨀 爀最戀愀⠀㈀㔀㔀Ⰰ㈀㔀㔀Ⰰ㈀㔀㔀Ⰰ　⸀㤀㔀⤀㬀ഀ਀        戀漀砀ⴀ猀栀愀搀漀眀㨀 渀漀渀攀㬀ഀ਀        栀攀椀最栀琀㨀 ㄀　　─㬀ഀ਀        漀瘀攀爀昀氀漀眀ⴀ礀㨀 猀挀爀漀氀氀㬀ഀ਀        漀瘀攀爀昀氀漀眀ⴀ砀㨀 栀椀搀搀攀渀㬀ഀ਀    紀ഀ਀ഀ਀    ⸀渀愀瘀ⴀ搀爀愀眀攀爀ⴀ挀漀渀琀攀渀琀 笀ഀ਀        眀椀搀琀栀㨀 愀甀琀漀㬀ഀ਀        瀀愀搀搀椀渀最ⴀ戀漀琀琀漀洀㨀 㔀　瀀砀㬀ഀ਀    紀ഀ਀ഀ਀        ⸀渀愀瘀ⴀ搀爀愀眀攀爀ⴀ挀漀渀琀攀渀琀 ⸀琀漀瀀ⴀ搀爀愀眀攀爀 笀ഀ਀            眀椀搀琀栀㨀 愀甀琀漀㬀ഀ਀            昀氀漀愀琀㨀 渀漀渀攀㬀ഀ਀        紀ഀ਀ഀ਀            ⸀渀愀瘀ⴀ搀爀愀眀攀爀ⴀ挀漀渀琀攀渀琀 ⸀琀漀瀀ⴀ搀爀愀眀攀爀㨀昀椀爀猀琀ⴀ挀栀椀氀搀 笀ഀ਀                洀愀爀最椀渀㨀 ㄀㔀瀀砀 　 　 　㬀ഀ਀            紀ഀ਀ഀ਀    ⸀琀漀瀀ⴀ搀爀愀眀攀爀 ⸀洀ⴀ琀漀瀀ⴀ渀愀瘀 笀ഀ਀        搀椀猀瀀氀愀礀㨀 戀氀漀挀欀㬀ഀ਀        栀攀椀最栀琀㨀 ㌀㠀瀀砀㬀ഀ਀        氀椀渀攀ⴀ栀攀椀最栀琀㨀 ㌀㠀瀀砀㬀ഀ਀        琀攀砀琀ⴀ愀氀椀最渀㨀 挀攀渀琀攀爀㬀ഀ਀        戀愀挀欀最爀漀甀渀搀ⴀ挀漀氀漀爀㨀 ⌀攀㈀攀㈀攀㈀㬀ഀ਀        挀漀氀漀爀㨀 ⌀㌀㌀㌀㬀ഀ਀        洀愀爀最椀渀㨀 　 ㄀㔀瀀砀 ㄀㔀瀀砀 ㄀㔀瀀砀㬀ഀ਀    紀ഀ਀ഀ਀    ⸀琀漀瀀ⴀ搀爀愀眀攀爀 ⸀猀甀戀ⴀ渀愀瘀 笀ഀ਀        戀漀爀搀攀爀㨀 渀漀渀攀㬀ഀ਀        眀椀搀琀栀㨀 愀甀琀漀㬀ഀ਀        昀氀漀愀琀㨀 渀漀渀攀㬀ഀ਀        瀀愀搀搀椀渀最㨀 　 ㄀㔀瀀砀㬀ഀ਀        ⴀ眀攀戀欀椀琀ⴀ挀漀氀甀洀渀ⴀ挀漀甀渀琀㨀 ㌀㬀ഀ਀        ⴀ眀攀戀欀椀琀ⴀ挀漀氀甀洀渀ⴀ最愀瀀㨀 ㄀㔀瀀砀㬀ഀ਀        ⴀ洀漀稀ⴀ挀漀氀甀洀渀ⴀ挀漀甀渀琀㨀 ㌀㬀ഀ਀        ⴀ洀漀稀ⴀ挀漀氀甀洀渀ⴀ最愀瀀㨀 ㄀㔀瀀砀㬀ഀ਀    紀ഀ਀ഀ਀    ⸀渀愀瘀ⴀ氀椀昀攀 ⸀琀漀瀀ⴀ搀爀愀眀攀爀 ⸀猀甀戀ⴀ渀愀瘀 笀ഀ਀        眀椀搀琀栀㨀 愀甀琀漀㬀ഀ਀    紀ഀ਀ഀ਀    ⸀琀漀瀀ⴀ搀爀愀眀攀爀 ⸀猀甀戀ⴀ渀愀瘀 猀瀀愀渀 笀ഀ਀        搀椀猀瀀氀愀礀㨀 椀渀氀椀渀攀ⴀ戀氀漀挀欀㬀ഀ਀        眀椀搀琀栀㨀 ㄀　　─㬀ഀ਀        栀攀椀最栀琀㨀 㐀㘀瀀砀㬀ഀ਀        戀愀挀欀最爀漀甀渀搀ⴀ挀漀氀漀爀㨀 ⌀昀昀昀㬀ഀ਀        戀漀爀搀攀爀㨀 ㄀瀀砀 猀漀氀椀搀 ⌀挀挀挀㬀ഀ਀        琀攀砀琀ⴀ愀氀椀最渀㨀 挀攀渀琀攀爀㬀ഀ਀        洀愀爀最椀渀ⴀ戀漀琀琀漀洀㨀 ㄀㔀瀀砀㬀ഀ਀        戀漀砀ⴀ猀椀稀椀渀最㨀 戀漀爀搀攀爀ⴀ戀漀砀㬀ഀ਀        ⴀ洀漀稀ⴀ戀漀砀ⴀ猀椀稀椀渀最㨀 戀漀爀搀攀爀ⴀ戀漀砀㬀ഀ਀        ⴀ眀攀戀欀椀琀ⴀ戀漀砀ⴀ猀椀稀椀渀最㨀 戀漀爀搀攀爀ⴀ戀漀砀㬀ഀ਀    紀ഀ਀ഀ਀    ⸀琀漀瀀ⴀ搀爀愀眀攀爀 ⸀猀甀戀ⴀ渀愀瘀 愀 笀ഀ਀        搀椀猀瀀氀愀礀㨀 戀氀漀挀欀㬀ഀ਀        眀椀搀琀栀㨀 ㄀　　─㬀ഀ਀        栀攀椀最栀琀㨀 ㄀　　─㬀ഀ਀        氀椀渀攀ⴀ栀攀椀最栀琀㨀 㐀㘀瀀砀㬀ഀ਀        昀漀渀琀ⴀ猀椀稀攀㨀 ㄀㐀瀀砀㬀ഀ਀    紀ഀ਀ഀ਀        ⸀琀漀瀀ⴀ搀爀愀眀攀爀 ⸀猀甀戀ⴀ渀愀瘀 愀㨀栀漀瘀攀爀 笀ഀ਀            戀漀爀搀攀爀㨀 ㄀瀀砀 猀漀氀椀搀 ⌀㄀㈀　戀㘀㔀㬀ഀ਀            挀漀氀漀爀㨀 ⌀㄀搀㈀㠀㔀㔀㬀ഀ਀            琀攀砀琀ⴀ搀攀挀漀爀愀琀椀漀渀㨀 渀漀渀攀㬀ഀ਀        紀ഀ਀ഀ਀    ⸀挀漀瘀攀爀 笀ഀ਀        搀椀猀瀀氀愀礀㨀 渀漀渀攀㬀ഀ਀    紀ഀ਀ഀ਀    ⸀渀愀瘀ⴀ洀愀椀渀 ⸀椀挀漀渀猀 笀ഀ਀        戀愀挀欀最爀漀甀渀搀ⴀ瀀漀猀椀琀椀漀渀㨀 　 　㬀ഀ਀    紀ഀ਀ഀ਀    ⸀渀愀瘀ⴀ洀愀椀渀 ⸀愀挀琀 ⸀椀挀漀渀猀 笀ഀ਀        戀愀挀欀最爀漀甀渀搀ⴀ瀀漀猀椀琀椀漀渀㨀 ⴀ㌀㜀㠀瀀砀 　㬀ഀ਀        ⴀ漀ⴀ琀爀愀渀猀昀漀爀洀㨀 爀漀琀愀琀攀⠀ⴀ㤀　搀攀最⤀㬀ഀ਀        ⴀ眀攀戀欀椀琀ⴀ琀爀愀渀猀昀漀爀洀㨀 爀漀琀愀琀攀⠀ⴀ㤀　搀攀最⤀㬀ഀ਀        ⴀ洀漀稀ⴀ琀爀愀渀猀昀漀爀洀㨀 爀漀琀愀琀攀⠀ⴀ㤀　搀攀最⤀㬀ഀ਀    紀ഀ਀ഀ਀    䀀ⴀ眀攀戀欀椀琀ⴀ欀攀礀昀爀愀洀攀猀 昀愀搀攀伀甀琀唀瀀 笀ഀ਀        　─ 笀ഀ਀            漀瀀愀挀椀琀礀㨀 ㄀㬀ഀ਀        紀ഀ਀ഀ਀        ㄀　　─ 笀ഀ਀            漀瀀愀挀椀琀礀㨀 　㬀ഀ਀            ⴀ眀攀戀欀椀琀ⴀ琀爀愀渀猀昀漀爀洀㨀 琀爀愀渀猀氀愀琀攀㌀搀⠀　Ⰰⴀ㄀　　─Ⰰ　⤀㬀ഀ਀            琀爀愀渀猀昀漀爀洀㨀 琀爀愀渀猀氀愀琀攀㌀搀⠀　Ⰰⴀ㄀　　─Ⰰ　⤀㬀ഀ਀        紀ഀ਀    紀ഀ਀ഀ਀    䀀欀攀礀昀爀愀洀攀猀 昀愀搀攀伀甀琀唀瀀 笀ഀ਀        　─ 笀ഀ਀            漀瀀愀挀椀琀礀㨀 ㄀㬀ഀ਀        紀ഀ਀ഀ਀        ㄀　　─ 笀ഀ਀            漀瀀愀挀椀琀礀㨀 　㬀ഀ਀            ⴀ眀攀戀欀椀琀ⴀ琀爀愀渀猀昀漀爀洀㨀 琀爀愀渀猀氀愀琀攀㌀搀⠀　Ⰰⴀ㄀　　─Ⰰ　⤀㬀ഀ਀            琀爀愀渀猀昀漀爀洀㨀 琀爀愀渀猀氀愀琀攀㌀搀⠀　Ⰰⴀ㄀　　─Ⰰ　⤀㬀ഀ਀        紀ഀ਀    紀ഀ਀ഀ਀    ⸀昀愀搀攀伀甀琀唀瀀 笀ഀ਀        ⴀ眀攀戀欀椀琀ⴀ愀渀椀洀愀琀椀漀渀ⴀ渀愀洀攀㨀 昀愀搀攀伀甀琀唀瀀㬀ഀ਀        愀渀椀洀愀琀椀漀渀ⴀ渀愀洀攀㨀 昀愀搀攀伀甀琀唀瀀㬀ഀ਀    紀ഀ਀ഀ਀    䀀ⴀ眀攀戀欀椀琀ⴀ欀攀礀昀爀愀洀攀猀 昀愀搀攀䤀渀䐀漀眀渀 笀ഀ਀        　─ 笀ഀ਀            漀瀀愀挀椀琀礀㨀 　㬀ഀ਀            ⴀ眀攀戀欀椀琀ⴀ琀爀愀渀猀昀漀爀洀㨀 琀爀愀渀猀氀愀琀攀㌀搀⠀　Ⰰⴀ㄀　　─Ⰰ　⤀㬀ഀ਀            琀爀愀渀猀昀漀爀洀㨀 琀爀愀渀猀氀愀琀攀㌀搀⠀　Ⰰⴀ㄀　　─Ⰰ　⤀㬀ഀ਀        紀ഀ਀ഀ਀        ㄀　　─ 笀ഀ਀            漀瀀愀挀椀琀礀㨀 ㄀㬀ഀ਀            ⴀ眀攀戀欀椀琀ⴀ琀爀愀渀猀昀漀爀洀㨀 渀漀渀攀㬀ഀ਀            琀爀愀渀猀昀漀爀洀㨀 渀漀渀攀㬀ഀ਀        紀ഀ਀    紀ഀ਀ഀ਀    䀀欀攀礀昀爀愀洀攀猀 昀愀搀攀䤀渀䐀漀眀渀 笀ഀ਀        　─ 笀ഀ਀            漀瀀愀挀椀琀礀㨀 　㬀ഀ਀            ⴀ眀攀戀欀椀琀ⴀ琀爀愀渀猀昀漀爀洀㨀 琀爀愀渀猀氀愀琀攀㌀搀⠀　Ⰰⴀ㄀　　─Ⰰ　⤀㬀ഀ਀            琀爀愀渀猀昀漀爀洀㨀 琀爀愀渀猀氀愀琀攀㌀搀⠀　Ⰰⴀ㄀　　─Ⰰ　⤀㬀ഀ਀        紀ഀ਀ഀ਀        ㄀　　─ 笀ഀ਀            漀瀀愀挀椀琀礀㨀 ㄀㬀ഀ਀            ⴀ眀攀戀欀椀琀ⴀ琀爀愀渀猀昀漀爀洀㨀 渀漀渀攀㬀ഀ਀            琀爀愀渀猀昀漀爀洀㨀 渀漀渀攀㬀ഀ਀        紀ഀ਀    紀ഀ਀ഀ਀    ⸀昀愀搀攀䤀渀䐀漀眀渀 笀ഀ਀        ⴀ眀攀戀欀椀琀ⴀ愀渀椀洀愀琀椀漀渀ⴀ渀愀洀攀㨀 昀愀搀攀䤀渀䐀漀眀渀㬀ഀ਀        愀渀椀洀愀琀椀漀渀ⴀ渀愀洀攀㨀 昀愀搀攀䤀渀䐀漀眀渀㬀ഀ਀    紀ഀ਀紀ഀ਀ഀ਀䀀洀攀搀椀愀 猀挀爀攀攀渀 愀渀搀 ⠀洀愀砀ⴀ眀椀搀琀栀㨀㠀　　瀀砀⤀ 笀ഀ਀    ⸀挀漀渀琀攀渀琀开戀搀 笀ഀ਀        搀椀猀瀀氀愀礀㨀 戀氀漀挀欀㬀ഀ਀    紀ഀ਀ഀ਀    ⸀挀漀渀琀攀渀琀Ⰰ ⸀挀漀渀琀攀渀琀开戀搀开爀椀最栀琀 笀ഀ਀        眀椀搀琀栀㨀 ㄀　　─㬀ഀ਀    紀ഀ਀ഀ਀    ⸀焀爀ⴀ挀漀搀攀Ⰰ ⌀搀攀洀愀渀搀愀 笀ഀ਀        搀椀猀瀀氀愀礀㨀 渀漀渀攀㬀ഀ਀    紀ഀ਀ഀ਀    ⸀眀甀洀椀椀ⴀ眀椀搀最攀琀ⴀ琀椀琀氀攀 笀ഀ਀        戀愀挀欀最爀漀甀渀搀ⴀ挀漀氀漀爀㨀 ⌀㄀搀㈀㠀㔀㔀 ℀椀洀瀀漀爀琀愀渀琀㬀ഀ਀        挀漀氀漀爀㨀 ⌀昀昀昀 ℀椀洀瀀漀爀琀愀渀琀㬀ഀ਀    紀ഀ਀ഀ਀    ⸀眀甀洀椀椀ⴀ栀漀漀欀 笀ഀ਀        眀椀搀琀栀㨀 ㄀　　─㬀ഀ਀        洀愀爀最椀渀ⴀ戀漀琀琀漀洀㨀 ㈀　瀀砀㬀ഀ਀    紀ഀ਀ഀ਀    ⸀眀甀洀椀椀ⴀ琀攀砀琀ⴀ氀椀 笀ഀ਀        昀漀渀琀ⴀ猀椀稀攀㨀 ㄀㘀瀀砀 ℀椀洀瀀漀爀琀愀渀琀㬀ഀ਀    紀ഀ਀ഀ਀    ⸀挀漀渀琀攀渀琀开戀搀 ⸀挀漀渀琀攀渀琀 笀ഀ਀        洀椀渀ⴀ栀攀椀最栀琀㨀 　㬀ഀ਀    紀ഀ਀紀ഀ਀ഀ਀䀀洀攀搀椀愀 猀挀爀攀攀渀 愀渀搀 ⠀洀愀砀ⴀ眀椀搀琀栀㨀㘀㐀　瀀砀⤀ 笀ഀ਀    ⼀⨀渀愀瘀⨀⼀ഀ਀    ⸀渀愀瘀 ⸀渀愀瘀ⴀ洀愀椀渀 笀ഀ਀        眀椀搀琀栀㨀 ㄀　　瀀砀㬀ഀ਀    紀ഀ਀ഀ਀    ⸀渀愀瘀ⴀ洀愀椀渀 ⸀渀愀瘀ⴀ愀 笀ഀ਀        昀漀渀琀ⴀ猀椀稀攀㨀 ㄀㐀瀀砀㬀ഀ਀        氀椀渀攀ⴀ栀攀椀最栀琀㨀 㐀㐀瀀砀㬀ഀ਀    紀ഀ਀ഀ਀    ⸀琀漀瀀ⴀ搀爀愀眀攀爀 ⸀猀甀戀ⴀ渀愀瘀 笀ഀ਀        ⴀ眀攀戀欀椀琀ⴀ挀漀氀甀洀渀ⴀ挀漀甀渀琀㨀 ㈀㬀ഀ਀        ⴀ洀漀稀ⴀ挀漀氀甀洀渀ⴀ挀漀甀渀琀㨀 ㈀㬀ഀ਀    紀ഀ਀ഀ਀        ⸀琀漀瀀ⴀ搀爀愀眀攀爀 ⸀猀甀戀ⴀ渀愀瘀 猀瀀愀渀 笀ഀ਀            栀攀椀最栀琀㨀 ㌀㘀瀀砀㬀ഀ਀        紀ഀ਀ഀ਀        ⸀琀漀瀀ⴀ搀爀愀眀攀爀 ⸀猀甀戀ⴀ渀愀瘀 愀 笀ഀ਀            昀漀渀琀ⴀ猀椀稀攀㨀 ㄀㈀瀀砀㬀ഀ਀            氀椀渀攀ⴀ栀攀椀最栀琀㨀 ㌀㘀瀀砀㬀ഀ਀        紀ഀ਀ഀ਀ഀ਀    ⸀氀愀礀漀甀琀 ⸀洀愀椀渀 笀ഀ਀        漀瘀攀爀昀氀漀眀㨀 栀椀搀搀攀渀㬀ഀ਀    紀ഀ਀ഀ਀    ⸀瀀爀攀ⴀ渀攀砀琀ⴀ愀爀琀椀挀氀攀 笀ഀ਀        搀椀猀瀀氀愀礀㨀 渀漀渀攀㬀ഀ਀    紀ഀ਀ഀ਀    ⸀挀漀渀琀攀渀琀开栀搀 栀㄀ 笀ഀ਀        昀漀渀琀ⴀ猀椀稀攀㨀 ㈀㐀瀀砀㬀ഀ਀    紀ഀ਀ഀ਀    ⸀挀漀渀琀攀渀琀开栀搀 ⸀猀甀戀琀椀琀氀攀Ⰰ ⸀挀漀渀琀攀渀琀开栀搀 ⸀愀爀琀椀挀氀攀ⴀ愀戀猀琀 笀ഀ਀        洀愀爀最椀渀ⴀ琀漀瀀㨀 　㬀ഀ਀    紀ഀ਀ഀ਀    ⸀挀漀渀琀攀渀琀开栀搀 㸀 搀椀瘀 笀ഀ਀        洀愀爀最椀渀ⴀ琀漀瀀㨀 ㄀　瀀砀㬀ഀ਀        瀀愀搀搀椀渀最ⴀ戀漀琀琀漀洀㨀 㠀瀀砀㬀ഀ਀    紀ഀ਀ഀ਀    ⸀挀漀渀琀攀渀琀开栀搀 ⸀愀爀琀椀挀氀攀ⴀ愀戀猀琀 笀ഀ਀        昀漀渀琀ⴀ猀椀稀攀㨀 ㄀㐀瀀砀㬀ഀ਀        氀椀渀攀ⴀ栀攀椀最栀琀㨀 ㈀㈀瀀砀㬀ഀ਀    紀ഀ਀ഀ਀    ⸀挀漀渀琀攀渀琀开戀搀 ⸀挀漀渀琀攀渀琀 笀ഀ਀        瀀愀搀搀椀渀最㨀 ㄀㔀瀀砀㬀ഀ਀    紀ഀ਀ഀ਀        ⸀挀漀渀琀攀渀琀开戀搀 ⸀挀漀渀琀攀渀琀 瀀 笀ഀ਀            洀愀爀最椀渀㨀 　⸀㠀攀洀 愀甀琀漀㬀ഀ਀            昀漀渀琀ⴀ猀椀稀攀㨀 ㄀㠀瀀砀㬀ഀ਀            氀椀渀攀ⴀ栀攀椀最栀琀㨀 ㄀⸀㔀㬀ഀ਀        紀ഀ਀ഀ਀    ⸀挀漀渀琀攀渀琀开栀搀 笀ഀ਀        瀀愀搀搀椀渀最㨀 ㄀㔀瀀砀 ㄀㔀瀀砀 㔀瀀砀 ㄀㔀瀀砀㬀ഀ਀    紀ഀ਀ഀ਀    ⸀挀漀渀琀攀渀琀 椀洀最 笀ഀ਀        洀愀砀ⴀ眀椀搀琀栀㨀 ㄀　　─ ℀椀洀瀀漀爀琀愀渀琀㬀ഀ਀        栀攀椀最栀琀㨀 愀甀琀漀 ℀椀洀瀀漀爀琀愀渀琀㬀ഀ਀        搀椀猀瀀氀愀礀㨀 戀氀漀挀欀㬀ഀ਀        洀愀爀最椀渀㨀 ㄀　瀀砀 愀甀琀漀㬀ഀ਀    紀ഀ਀ഀ਀    ⌀搀椀瘀开挀甀爀爀瀀愀最攀 ⸀漀爀搀攀爀 笀ഀ਀        搀椀猀瀀氀愀礀㨀 渀漀渀攀㬀ഀ਀    紀ഀ਀ഀ਀    ⌀瘀椀搀攀漀戀漀砀 笀ഀ਀        栀攀椀最栀琀㨀 ㌀㘀　瀀砀㬀ഀ਀        眀椀搀琀栀㨀 ㄀　　─ ℀椀洀瀀漀爀琀愀渀琀㬀ഀ਀    紀ഀ਀ഀ਀    ⌀匀伀䠀唀䌀匀 ⌀匀伀䠀唀开䴀䄀䤀一 ⸀猀攀挀琀椀漀渀ⴀ氀椀猀琀ⴀ眀 ⸀眀爀愀瀀ⴀ甀猀攀爀ⴀ最眀 ⸀甀猀攀爀ⴀ愀搀搀爀攀猀猀ⴀ最眀Ⰰ ⌀匀伀䠀唀䌀匀 ⌀匀伀䠀唀开䴀䄀䤀一 ⸀猀攀挀琀椀漀渀ⴀ挀戀漀砀ⴀ眀 ⸀瀀漀猀琀ⴀ氀漀最椀渀ⴀ眀 甀氀 氀椀 ⸀氀漀最椀渀ⴀ眀爀愀瀀ⴀ眀 ⸀眀爀愀瀀ⴀ渀愀洀攀ⴀ眀 笀ഀ਀        搀椀猀瀀氀愀礀㨀 渀漀渀攀 ℀椀洀瀀漀爀琀愀渀琀㬀ഀ਀    紀ഀ਀ഀ਀    ⌀匀伀䠀唀䌀匀 ⌀匀伀䠀唀开䴀䄀䤀一 ⸀猀攀挀琀椀漀渀ⴀ挀戀漀砀ⴀ眀 ⸀瀀漀猀琀ⴀ氀漀最椀渀ⴀ眀 甀氀 氀椀 ⸀氀漀最椀渀ⴀ眀爀愀瀀ⴀ眀Ⰰ ⌀匀伀䠀唀䌀匀 ⌀匀伀䠀唀开䴀䄀䤀一 ⸀猀攀挀琀椀漀渀ⴀ挀戀漀砀ⴀ眀 ⸀瀀漀猀琀ⴀ氀漀最椀渀ⴀ眀 甀氀 氀椀 ⸀氀漀最椀渀ⴀ眀爀愀瀀ⴀ眀 愀 笀ഀ਀        眀椀搀琀栀㨀 愀甀琀漀 ℀椀洀瀀漀爀琀愀渀琀㬀ഀ਀    紀ഀ਀ഀ਀    ⌀匀伀䠀唀䌀匀 ⌀匀伀䠀唀开䴀䄀䤀一 ⸀猀攀挀琀椀漀渀ⴀ挀戀漀砀ⴀ眀 ⸀戀氀漀挀欀ⴀ瀀漀猀琀ⴀ眀 笀ഀ਀        瀀愀搀搀椀渀最㨀 　 ℀椀洀瀀漀爀琀愀渀琀㬀ഀ਀    紀ഀ਀ഀ਀    ⌀匀伀䠀唀䌀匀 ⌀匀伀䠀唀开䴀䄀䤀一 ⸀猀攀挀琀椀漀渀ⴀ挀戀漀砀ⴀ眀 ⸀戀氀漀挀欀ⴀ栀攀愀搀ⴀ眀 笀ഀ਀        搀椀猀瀀氀愀礀㨀 渀漀渀攀 ℀椀洀瀀漀爀琀愀渀琀㬀ഀ਀    紀ഀ਀ഀ਀    搀椀瘀⸀瘀椀猀椀琀漀爀ⴀ氀漀最椀渀ⴀ眀爀愀瀀瀀攀爀ⴀ搀眀 笀ഀ਀        眀椀搀琀栀㨀 愀甀琀漀 ℀椀洀瀀漀爀琀愀渀琀㬀ഀ਀        洀愀爀最椀渀㨀 　 ㄀　瀀砀 ℀椀洀瀀漀爀琀愀渀琀㬀ഀ਀    紀ഀ਀ഀ਀    ⸀瘀椀猀椀琀漀爀ⴀ氀漀最椀渀ⴀ眀爀愀瀀瀀攀爀ⴀ搀眀 ⸀挀漀渀琀ⴀ瘀攀爀椀昀礀ⴀ搀眀 笀ഀ਀        瀀愀搀搀椀渀最㨀 ㄀　瀀砀 ㄀　瀀砀 　 ㄀　瀀砀 ℀椀洀瀀漀爀琀愀渀琀㬀ഀ਀    紀ഀ਀ഀ਀    ⸀瘀椀猀椀琀漀爀ⴀ氀漀最椀渀ⴀ眀爀愀瀀瀀攀爀ⴀ搀眀 ⸀挀漀渀琀ⴀ昀漀爀洀ⴀ搀眀 笀ഀ਀        瀀愀搀搀椀渀最㨀 ㌀　瀀砀 ㄀　瀀砀 　 ㄀　瀀砀 ℀椀洀瀀漀爀琀愀渀琀㬀ഀ਀    紀ഀ਀ഀ਀    ⸀瘀椀猀椀琀漀爀ⴀ氀漀最椀渀ⴀ眀爀愀瀀瀀攀爀ⴀ搀眀 ⸀挀漀渀琀ⴀ昀漀爀洀ⴀ搀眀Ⰰ ⸀瘀椀猀椀琀漀爀ⴀ氀漀最椀渀ⴀ眀爀愀瀀瀀攀爀ⴀ搀眀 ⸀挀漀渀琀ⴀ瘀攀爀椀昀礀ⴀ搀眀 笀ഀ਀        搀椀猀瀀氀愀礀㨀 ⴀ洀漀稀ⴀ戀漀砀 ℀椀洀瀀漀爀琀愀渀琀㬀ഀ਀        搀椀猀瀀氀愀礀㨀 ⴀ眀攀戀欀椀琀ⴀ戀漀砀 ℀椀洀瀀漀爀琀愀渀琀㬀ഀ਀        搀椀猀瀀氀愀礀㨀 戀漀砀 ℀椀洀瀀漀爀琀愀渀琀㬀ഀ਀    紀ഀ਀ഀ਀        ⸀瘀椀猀椀琀漀爀ⴀ氀漀最椀渀ⴀ眀爀愀瀀瀀攀爀ⴀ搀眀 ⸀挀漀渀琀ⴀ昀漀爀洀ⴀ搀眀 ⸀昀漀爀洀ⴀ渀愀洀攀ⴀ戀搀Ⰰ ⸀瘀椀猀椀琀漀爀ⴀ氀漀最椀渀ⴀ眀爀愀瀀瀀攀爀ⴀ搀眀 ⸀挀漀渀琀ⴀ瘀攀爀椀昀礀ⴀ搀眀 ⸀瘀攀爀椀昀礀ⴀ渀愀洀攀ⴀ戀搀 笀ഀ਀            昀氀漀愀琀㨀 渀漀渀攀 ℀椀洀瀀漀爀琀愀渀琀㬀ഀ਀            搀椀猀瀀氀愀礀㨀 戀氀漀挀欀 ℀椀洀瀀漀爀琀愀渀琀㬀ഀ਀            眀椀搀琀栀㨀 㘀　瀀砀 ℀椀洀瀀漀爀琀愀渀琀㬀ഀ਀        紀ഀ਀ഀ਀        ⸀瘀椀猀椀琀漀爀ⴀ氀漀最椀渀ⴀ眀爀愀瀀瀀攀爀ⴀ搀眀 ⸀挀漀渀琀ⴀ昀漀爀洀ⴀ搀眀 ⸀昀漀爀洀ⴀ愀挀琀椀漀渀ⴀ搀眀Ⰰ ⸀瘀椀猀椀琀漀爀ⴀ氀漀最椀渀ⴀ眀爀愀瀀瀀攀爀ⴀ搀眀 ⸀挀漀渀琀ⴀ瘀攀爀椀昀礀ⴀ搀眀 ⸀瘀攀爀椀昀礀ⴀ愀挀琀椀漀渀ⴀ搀眀 笀ഀ਀            昀氀漀愀琀㨀 渀漀渀攀 ℀椀洀瀀漀爀琀愀渀琀㬀ഀ਀            眀椀搀琀栀㨀 愀甀琀漀 ℀椀洀瀀漀爀琀愀渀琀㬀ഀ਀            ⴀ洀漀稀ⴀ戀漀砀ⴀ昀氀攀砀㨀 ㄀ ℀椀洀瀀漀爀琀愀渀琀㬀ഀ਀            ⴀ眀攀戀欀椀琀ⴀ戀漀砀ⴀ昀氀攀砀㨀 ㄀ ℀椀洀瀀漀爀琀愀渀琀㬀ഀ਀            戀漀砀ⴀ昀氀攀砀㨀 ㄀ ℀椀洀瀀漀爀琀愀渀琀㬀ഀ਀        紀ഀ਀ഀ਀            ⸀瘀椀猀椀琀漀爀ⴀ氀漀最椀渀ⴀ眀爀愀瀀瀀攀爀ⴀ搀眀 ⸀挀漀渀琀ⴀ昀漀爀洀ⴀ搀眀 ⸀昀漀爀洀ⴀ愀挀琀椀漀渀ⴀ搀眀 ⸀愀挀琀椀漀渀ⴀ琀攀砀琀ⴀ搀昀眀 笀ഀ਀                眀椀搀琀栀㨀 㤀　─ ℀椀洀瀀漀爀琀愀渀琀㬀ഀ਀            紀ഀ਀ഀ਀            ⸀瘀椀猀椀琀漀爀ⴀ氀漀最椀渀ⴀ眀爀愀瀀瀀攀爀ⴀ搀眀 ⸀挀漀渀琀ⴀ瘀攀爀椀昀礀ⴀ搀眀 ⸀瘀攀爀椀昀礀ⴀ愀挀琀椀漀渀ⴀ搀眀 ⸀愀挀琀椀漀渀ⴀ琀攀砀琀ⴀ搀昀眀 笀ഀ਀                眀椀搀琀栀㨀 㔀　瀀砀 ℀椀洀瀀漀爀琀愀渀琀㬀ഀ਀            紀ഀ਀ഀ਀    ⌀匀伀䠀唀䌀匀 ⌀匀伀䠀唀开䴀䄀䤀一 ⸀猀攀挀琀椀漀渀ⴀ琀椀琀氀攀ⴀ眀 ⸀樀漀椀渀ⴀ眀爀愀瀀ⴀ眀 ⸀眀爀愀瀀ⴀ渀愀洀攀ⴀ眀 笀ഀ਀        昀漀渀琀ⴀ猀椀稀攀㨀 ㄀㘀瀀砀 ℀椀洀瀀漀爀琀愀渀琀㬀ഀ਀    紀ഀ਀ഀ਀    ⌀匀伀䠀唀䌀匀 ⌀匀伀䠀唀开䴀䄀䤀一 ⸀猀攀挀琀椀漀渀ⴀ琀椀琀氀攀ⴀ眀 ⸀樀漀椀渀ⴀ眀爀愀瀀ⴀ眀 ⸀眀爀愀瀀ⴀ樀漀椀渀ⴀ眀 笀ഀ਀        昀漀渀琀ⴀ猀椀稀攀㨀 ㄀㐀瀀砀 ℀椀洀瀀漀爀琀愀渀琀㬀ഀ਀    紀ഀ਀ഀ਀    ⌀匀伀䠀唀䌀匀 ⌀匀伀䠀唀开䴀䄀䤀一 ⸀猀攀挀琀椀漀渀ⴀ琀椀琀氀攀ⴀ眀 ⸀琀椀琀氀攀ⴀ甀猀攀爀ⴀ眀 ⸀甀猀攀爀ⴀ眀爀愀瀀ⴀ眀 笀ഀ਀        洀愀爀最椀渀㨀 　 ℀椀洀瀀漀爀琀愀渀琀㬀ഀ਀    紀ഀ਀ഀ਀    ⸀眀甀洀椀椀ⴀ眀椀搀最攀琀ⴀ琀椀琀氀攀 笀ഀ਀        琀攀砀琀ⴀ椀渀搀攀渀琀㨀 ㄀㔀瀀砀 ℀椀洀瀀漀爀琀愀渀琀㬀ഀ਀    紀ഀ਀ഀ਀    ⸀眀甀洀椀椀ⴀ琀攀砀琀ⴀ氀椀Ⰰ ⸀挀漀渀琀攀渀琀ⴀ洀漀搀 ⸀栀搀 猀瀀愀渀 笀ഀ਀        瀀愀搀搀椀渀最㨀 　 ㄀㔀瀀砀 ℀椀洀瀀漀爀琀愀渀琀㬀ഀ਀    紀ഀ਀ഀ਀    ⸀挀漀渀琀攀渀琀开猀栀愀爀攀 瀀 笀ഀ਀        洀愀爀最椀渀ⴀ氀攀昀琀㨀 ㄀㔀瀀砀㬀ഀ਀    紀ഀ਀ഀ਀    ⸀挀漀渀琀攀渀琀开挀漀洀洀攀渀琀Ⰰ ⸀琀砀琀ⴀ渀攀眀猀ⴀ氀椀猀琀 氀椀 笀ഀ਀        瀀愀搀搀椀渀最㨀 　 ㄀㔀瀀砀㬀ഀ਀    紀ഀ਀紀ഀ਀ഀ਀䀀洀攀搀椀愀 猀挀爀攀攀渀 愀渀搀 ⠀洀愀砀ⴀ眀椀搀琀栀㨀㌀㈀　瀀砀⤀ 笀ഀ਀    ⌀瘀椀搀攀漀戀漀砀 笀ഀ਀        栀攀椀最栀琀㨀 ㈀　　瀀砀㬀ഀ਀    紀ഀ਀紀ഀ਀ഀ਀ഀ਀⸀渀攀眀猀ⴀ氀椀猀琀ⴀ椀洀愀最攀猀 笀ഀ਀    眀椀搀琀栀㨀 ㄀　　─㬀ഀ਀    漀瘀攀爀昀氀漀眀㨀 栀椀搀搀攀渀㬀ഀ਀紀ഀ਀ ⸀渀攀眀猀ⴀ氀椀猀琀ⴀ椀洀愀最攀猀 氀椀 笀ഀ਀        瀀愀搀搀椀渀最㨀 ㈀㄀瀀砀 ㄀　瀀砀㬀     ഀ਀        栀攀椀最栀琀㨀 愀甀琀漀㬀ഀ਀        眀椀搀琀栀㨀㄀㔀　瀀砀ഀ਀        漀瘀攀爀昀氀漀眀㨀 栀椀搀搀攀渀㬀ഀ਀        戀漀爀搀攀爀ⴀ琀漀瀀㨀 ㄀瀀砀 猀漀氀椀搀 ⌀搀㄀搀㄀搀㄀㬀ഀ਀        琀攀砀琀ⴀ愀氀椀最渀㨀 挀攀渀琀攀爀㬀ഀ਀        昀氀漀愀琀㨀 氀攀昀琀㬀ഀ਀    紀ഀ਀ ⸀渀攀眀猀ⴀ氀椀猀琀ⴀ椀洀愀最攀猀 氀椀 椀洀最 笀ഀ਀   眀椀搀琀栀㨀㄀㐀　瀀砀㬀ഀ਀   栀攀椀最栀琀㨀㄀　　瀀砀ഀ਀   紀ഀ਀⸀渀攀眀猀ⴀ氀椀猀琀ⴀ椀洀愀最攀猀 氀椀 瀀笀ഀ਀   眀椀搀琀栀㨀㄀㐀　瀀砀㬀ഀ਀   栀攀椀最栀琀㨀㌀　瀀砀㬀ഀ਀   氀椀渀攀ⴀ栀攀椀最栀琀㨀㌀　瀀砀㬀ഀ਀   漀瘀攀爀昀氀漀眀㨀 栀椀搀搀攀渀㬀ഀ਀⸀渀攀眀猀ⴀ氀椀猀琀 笀ഀ਀    眀椀搀琀栀㨀 ㄀　　─㬀ഀ਀    漀瘀攀爀昀氀漀眀㨀 栀椀搀搀攀渀㬀ഀ਀紀攀<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+<script language="javascript" src="/ad.js"></script>
